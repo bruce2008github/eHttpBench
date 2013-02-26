@@ -14,7 +14,7 @@ Note:
 *****************************************************************************************************
 Build:
 
-   1) Make sure you have install the erlang(http://www.erlang.org/) 
+   1) Make sure you have installed the erlang(http://www.erlang.org/) 
 
    2) run make command
 
@@ -26,6 +26,9 @@ Usage:
    2) launch the eHttpBench.erl with the specified the server url info , concurrent clients number and 
       total requests number.
       (run ./eHttpBench.erl -h to see the detail info)
+
+   3) If you need to run a lot of concurrent connections testing, 
+      Please tune your linux server at first, and check the system limit(ulimit -a)
 
   
 
